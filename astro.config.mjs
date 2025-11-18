@@ -67,7 +67,7 @@ export default defineConfig({
     },
     ssr: {
       // Workaround until they support native ESM
-      noExternal: ["vue3-popper"],
+      noExternal: ["vue3-popper", "@panzoom/panzoom"],
     },
   },
   build: {
